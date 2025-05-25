@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(135deg, #f0f4f8, #dff1ff);
+  background: linear-gradient(135deg, #1c0a0a, #dff);
 }
 
 header {
@@ -14,13 +14,12 @@ header {
   padding: 15px 20px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   border-radius: 10px
-  
 }
 
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 
 nav a {
