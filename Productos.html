@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MoviYa - Productos</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+
+  <header>
+    <div><strong>MoviYa</strong></div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="Productos.html">Productos</a>
+      <a href="Ofertas.html">Ofertas</a>
+      <a href="Contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    ¡Explora nuestras marcas disponibles!
+  </div>
+
+  <main class="contenedor-marcas">
+    <!-- Sección Samsung -->
+    <div class="marca-bloque">
+      <div class="marca-titulo" onclick="toggleMarca('samsung', this)">
+        Samsung <span class="icono">+</span>
+      </div>
+      <div class="marca-productos" id="samsung">
+        <div class="producto button-producto-marca">
+          <img src="s24.jpg" alt="Samsung Galaxy A24">
+          <h3>Samsung Galaxy A24</h3>
+          <p>$1.200.000 COP</p>
+          <button onclick="comprar('Samsung Galaxy A54')">Comprar por WhatsApp</button>
+        </div>
+        <!-- Puedes agregar más Samsung aquí -->
+      </div>
+    </div>
+
+    <!-- Sección iPhone -->
+    <div class="marca-bloque">
+      <div class="marca-titulo" onclick="toggleMarca('iphone', this)">
+        iPhone <span class="icono">+</span>
+      </div>
+      <div class="marca-productos" id="iphone">
+        <div class="producto button-producto-marca">
+          <img src="iphone 13.jpeg" alt="iPhone 13">
+          <h3>iPhone 13</h3>
+          <p>$2.350.000 COP</p>
+          <button onclick="comprar('Iphone 13')">Comprar por WhatsApp</button>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección Huawei -->
+    <div class="marca-bloque">
+      <div class="marca-titulo" onclick="toggleMarca('huawei', this)">
+        Huawei <span class="icono">+</span>
+      </div>
+      <div class="marca-productos" id="huawei">
+        <div class="producto button-producto-marca">
+          <img src="huawei p20lite.jpg" alt="Huawei P20 Lite">
+          <h3>Huawei P20 Lite</h3>
+          <p>$1.200.000 COP</p>
+          <button onclick="comprar('Huawei p20 Lite')">Comprar por WhatsApp</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección Motorola -->
+    <div class="marca-bloque">
+      <div class="marca-titulo" onclick="toggleMarca('motorola', this)">
+        Motorola <span class="icono">+</span>
+      </div>
+      <div class="marca-productos" id="motorola">
+        <div class="producto button-producto-marca">
+          <img src="motorola.jpg" alt="Motorola G Power">
+          <h3>Motorola G Power</h3>
+          <p>$900.000 COP</p>
+          <button onclick="comprar('Motorola G Power')">Comprar por WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/funciones.js"></script>
+
+  <footer>
+    <p>&copy; 2025 MoviYa. Todos los derechos reservados.</p>
+    <p>Contacto: Jbolas253@gmail.com | Tel: +57 3122575861</p>
+  </footer>
+</body>
+
+</html>

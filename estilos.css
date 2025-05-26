@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(135deg, #1c0a0a, #dff);
+  background: linear-gradient(135deg, #766a6a, rgb(32, 65, 65));
 }
 
 header {
@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   border-radius: 10px
 }
 
@@ -42,7 +42,6 @@ nav a:hover {
   margin-left: 5px;
 }
 
-/* Hero */
 .hero {
   background: url('https://via.placeholder.com/1200x300?text=Bienvenido+a+Celumarket') no-repeat center center;
   background-size: cover;
@@ -50,16 +49,15 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(230, 223, 223);
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
   padding: 0 20px;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
   animation: fadeIn 2s ease;
 }
 
-/* Productos */
 .productos {
   display: flex;
   flex-wrap: wrap;
@@ -72,8 +70,8 @@ nav a:hover {
   background-color: white;
   border: 1px solid #ddd;
   border-radius: 10px;
-  flex: 1 1 calc(33.33% - 20px); /* Tres productos por fila con espacio entre ellos */
-  max-width: calc(33.33% - 20px); /* Asegura que no se expandan más allá del 33.33% */
+  flex: 1 1 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
   padding: 15px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -124,24 +122,33 @@ nav a:hover {
   transform: scale(1.05);
 }
 
-/* Footer */
 footer {
   background-color: #34495e;
   color: white;
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Animaciones */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slideUp {
-  to { opacity: 1; transform: translateY(0); }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Responsivo */
@@ -159,7 +166,7 @@ footer {
 
   .hero {
     font-size: 1.5rem;
-    height: 150px;
+    height: 80px;
   }
 
   .producto {
@@ -183,18 +190,6 @@ footer {
   }
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-}
-
-.ofertas-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
 .ofertas-nav a {
   color: #ecf0f1;
   text-decoration: none;
@@ -215,22 +210,6 @@ body {
   margin-left: 5px;
 }
 
-/* Hero */
-.ofertas-hero {
-  background: url('https://via.placeholder.com/1200x300?text=Ofertas+Celulares+MoviYa') no-repeat center center;
-  background-size: cover;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  padding: 0 20px;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
-  animation: fadeIn 2s ease;
-}
 
 /* Productos */
 .ofertas-productos {
@@ -249,7 +228,7 @@ body {
   max-width: 250px;
   padding: 15px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: slideUp 0.5s ease forwards;
   opacity: 0;
@@ -265,7 +244,7 @@ body {
 
 .ofertas-producto:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .ofertas-producto img {
@@ -355,14 +334,15 @@ body {
     height: 180px;
   }
 }
+
 .contacto-hero {
   background: url('https://via.placeholder.com/1200x300?text=Contáctanos+en+MoviYa') no-repeat center center;
   background-size: cover;
-  height: auto;
-  color: white;
+height: 10%;
+  color: rgb(237, 229, 229);
   font-size: 1.2rem;
   font-weight: bold;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
   animation: fadeIn 2s ease;
   padding: 2rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -373,11 +353,91 @@ body {
   background-color: rgba(91, 88, 88, 0.6);
   padding: 10px;
   color: white;
-  text-align:justify;
+  text-align: justify;
 }
 
 .contacto-hero input,
 .contacto-hero textarea {
   background-color: white;
   color: black;
+}
+
+.info-contacto{
+  color:white;
+  text-align: center;
+  animation: fadeIn 2s ease;
+  font-family:sans-serif;
+}
+/* Sección productos*/
+
+
+.contenedor-marcas {
+  padding: 20px;
+}
+
+.marca-bloque {
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.marca-titulo {
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marca-productos {
+  display: none;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.producto-marca {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.producto-marca img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .producto-item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .productos-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
