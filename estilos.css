@@ -355,3 +355,29 @@ body {
     height: 180px;
   }
 }
+.contacto-hero {
+  background: url('https://via.placeholder.com/1200x300?text=Contáctanos+en+MoviYa') no-repeat center center;
+  background-size: cover;
+  height: auto;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+  animation: fadeIn 2s ease;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.contacto-hero form {
+  background-color: rgba(91, 88, 88, 0.6);
+  padding: 10px;
+  color: white;
+  text-align:justify;
+}
+
+.contacto-hero input,
+.contacto-hero textarea {
+  background-color: white;
+  color: black;
+}
