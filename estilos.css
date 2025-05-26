@@ -338,7 +338,7 @@ footer {
 .contacto-hero {
   background: url('https://via.placeholder.com/1200x300?text=Contáctanos+en+MoviYa') no-repeat center center;
   background-size: cover;
-height: 10%;
+  height: 10%;
   color: rgb(237, 229, 229);
   font-size: 1.2rem;
   font-weight: bold;
@@ -362,12 +362,13 @@ height: 10%;
   color: black;
 }
 
-.info-contacto{
-  color:white;
+.info-contacto {
+  color: white;
   text-align: center;
   animation: fadeIn 2s ease;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
+
 /* Sección productos*/
 
 
@@ -417,6 +418,7 @@ height: 10%;
   object-fit: contain;
   margin-bottom: 10px;
 }
+
 /* Animación */
 @keyframes fadeIn {
   from {

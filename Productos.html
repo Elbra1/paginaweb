@@ -24,69 +24,184 @@
     ¡Explora nuestras marcas disponibles!
   </div>
 
-  <main class="contenedor-marcas">
-    <!-- Sección Samsung -->
-    <div class="marca-bloque">
-      <div class="marca-titulo" onclick="toggleMarca('samsung', this)">
-        Samsung <span class="icono">+</span>
-      </div>
-      <div class="marca-productos" id="samsung">
-        <div class="producto button-producto-marca">
-          <img src="s24.jpg" alt="Samsung Galaxy A24">
-          <h3>Samsung Galaxy A24</h3>
-          <p>$1.200.000 COP</p>
-          <button onclick="comprar('Samsung Galaxy A54')">Comprar por WhatsApp</button>
-        </div>
-        <!-- Puedes agregar más Samsung aquí -->
-      </div>
-    </div>
+  <!-- Sección Samsung -->
 
-    <!-- Sección iPhone -->
-    <div class="marca-bloque">
-      <div class="marca-titulo" onclick="toggleMarca('iphone', this)">
-        iPhone <span class="icono">+</span>
-      </div>
-      <div class="marca-productos" id="iphone">
-        <div class="producto button-producto-marca">
-          <img src="iphone 13.jpeg" alt="iPhone 13">
-          <h3>iPhone 13</h3>
-          <p>$2.350.000 COP</p>
-          <button onclick="comprar('Iphone 13')">Comprar por WhatsApp</button>
-
-        </div>
-      </div>
+  <div class="marca-bloque">
+    <div class="marca-titulo" onclick="toggleMarca('samsung', this)">
+      Samsung <span class="icono">+</span>
     </div>
+    <div class="marca-productos" id="samsung">
 
-    <!-- Sección Huawei -->
-    <div class="marca-bloque">
-      <div class="marca-titulo" onclick="toggleMarca('huawei', this)">
-        Huawei <span class="icono">+</span>
+      <div class="producto-marca producto">
+        <img src="samsung galaxy a14.jpeg" alt="Samsung Galaxy A14">
+        <h3>Samsung Galaxy A14</h3>
+        <p>$950.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Samsung Galaxy A14')">Comprar por WhatsApp</button>
       </div>
-      <div class="marca-productos" id="huawei">
-        <div class="producto button-producto-marca">
-          <img src="huawei p20lite.jpg" alt="Huawei P20 Lite">
-          <h3>Huawei P20 Lite</h3>
-          <p>$1.200.000 COP</p>
-          <button onclick="comprar('Huawei p20 Lite')">Comprar por WhatsApp</button>
-        </div>
-      </div>
-    </div>
 
-    <!-- Sección Motorola -->
-    <div class="marca-bloque">
-      <div class="marca-titulo" onclick="toggleMarca('motorola', this)">
-        Motorola <span class="icono">+</span>
+      <div class="producto-marca producto">
+        <img src="s24.jpg" alt="Samsung Galaxy A24">
+        <h3>Samsung Galaxy A24</h3>
+        <p>$1.200.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Samsung Galaxy A24')">Comprar por WhatsApp</button>
       </div>
-      <div class="marca-productos" id="motorola">
-        <div class="producto button-producto-marca">
-          <img src="motorola.jpg" alt="Motorola G Power">
-          <h3>Motorola G Power</h3>
-          <p>$900.000 COP</p>
-          <button onclick="comprar('Motorola G Power')">Comprar por WhatsApp</button>
-        </div>
+
+      <div class="producto-marca producto">
+        <img src="samsung galaxy a54.jpg" alt="Samsung Galaxy A54">
+        <h3>Samsung Galaxy A54</h3>
+        <p>$1.800.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Samsung Galaxy A54')">Comprar por WhatsApp</button>
       </div>
+
+      <div class="producto-marca producto">
+        <img src="samsung galaxy s21 FE.jpg" alt="Samsung Galaxy S21 FE">
+        <h3>Samsung Galaxy S21 FE</h3>
+        <p>$2.500.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Samsung Galaxy S21 FE')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto-marca producto">
+        <img src="samsung galaxy S23.jpg" alt="Samsung Galaxy S23">
+        <h3>Samsung Galaxy S23</h3>
+        <p>$3.100.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Samsung Galaxy S23')">Comprar por WhatsApp</button>
+      </div>
+
     </div>
+  </div>
   </main>
+
+  <!-- Sección iPhone -->
+  <div class="marca-bloque">
+    <div class="marca-titulo" onclick="toggleMarca('iphone', this)">
+      iPhone <span class="icono">+</span>
+    </div>
+    <div class="marca-productos" id="iphone">
+
+      <div class="producto button-producto-marca">
+        <img src="iphone se.jpg" alt="iPhone SE">
+        <h3>iPhone SE (2022)</h3>
+        <p>$1.600.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('iPhone SE (2022)')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="iphone 11.jpeg" alt="iPhone 11">
+        <h3>iPhone 11</h3>
+        <p>$1.900.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('iPhone 11')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="iphone 12.jpeg" alt="iPhone 12">
+        <h3>iPhone 12</h3>
+        <p>$2.100.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('iPhone 12')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="iphone 13.jpeg" alt="iPhone 13">
+        <h3>iPhone 13</h3>
+        <p>$2.350.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('iPhone 13')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="iphone 14.jpeg" alt="iPhone 14">
+        <h3>iPhone 14</h3>
+        <p>$3.100.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('iPhone 14')">Comprar por WhatsApp</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección Huawei -->
+  <div class="marca-bloque">
+    <div class="marca-titulo" onclick="toggleMarca('huawei', this)">
+      Huawei <span class="icono">+</span>
+    </div>
+    <div class="marca-productos" id="huawei">
+
+      <div class="producto button-producto-marca">
+        <img src="huawei y7 2019.jpg" alt="Huawei Y7">
+        <h3>Huawei Y7 (2019)</h3>
+        <p>$750.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Huawei Y7 2019')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="huawei y9s.jpeg" alt="Huawei Y9s">
+        <h3>Huawei Y9s</h3>
+        <p>$1.050.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Huawei Y9s')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="huawei p20lite.jpg" alt="Huawei P20 Lite">
+        <h3>Huawei P20 Lite</h3>
+        <p>$1.200.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Huawei P20 Lite')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="huawei nova 9.jpg" alt="Huawei Nova 9">
+        <h3>Huawei Nova 9</h3>
+        <p>$1.800.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Huawei Nova 9')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="huawei mate 40 pro.jpg" alt="Huawei Mate 40">
+        <h3>Huawei Mate 40 Pro</h3>
+        <p>$3.200.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Huawei Mate 40 Pro')">Comprar por WhatsApp</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección Motorola -->
+  <div class="marca-bloque">
+    <div class="marca-titulo" onclick="toggleMarca('motorola', this)">
+      Motorola <span class="icono">+</span>
+    </div>
+    <div class="marca-productos" id="motorola">
+
+      <div class="producto button-producto-marca">
+        <img src="motorola e7 plus.jpg" alt="Motorola E7 Plus">
+        <h3>Motorola E7 Plus</h3>
+        <p>$700.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Motorola E7 Plus')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="motorola.jpg" alt="Motorola G Power">
+        <h3>Motorola G Power</h3>
+        <p>$900.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Motorola G Power')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="motorola g32.jpg" alt="Motorola G32">
+        <h3>Motorola G32</h3>
+        <p>$950.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Motorola G32')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="motorola G60.jpg" alt="Motorola G60">
+        <h3>Motorola G60</h3>
+        <p>$1.100.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Motorola G60')">Comprar por WhatsApp</button>
+      </div>
+
+      <div class="producto button-producto-marca">
+        <img src="motorola edge 40.jpg" alt="Motorola Edge 30">
+        <h3>Motorola Edge 30</h3>
+        <p>$2.000.000 COP</p>
+        <button class="btn-comprar" onclick="comprar('Motorola Edge 30')">Comprar por WhatsApp</button>
+      </div>
+    </div>
+  </div>
 
   <script src="/funciones.js"></script>
 
