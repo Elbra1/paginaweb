@@ -12,3 +12,12 @@ function comprar(producto) {
   const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
   window.open(url, '_blank');
 }
+
+function toggleMarca(id) {
+  const seccion = document.getElementById(id);
+  if (seccion.style.display === "flex") {
+    seccion.style.display = "none";
+  } else {
+    seccion.style.display = "flex";
+  }
+}
