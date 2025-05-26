@@ -396,6 +396,7 @@ footer {
 }
 
 .marca-productos {
+  background: linear-gradient(135deg, #766a6a, rgb(32, 65, 65));
   display: none;
   flex-wrap: wrap;
   padding: 20px;
