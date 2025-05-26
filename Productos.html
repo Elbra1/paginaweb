@@ -10,9 +10,9 @@
 
 <body>
 
-  <header class="header">
+  <header>
     <div><strong>MoviYa</strong></div>
-    <nav class="productos-nav">
+    <nav>
       <a href="index.html">Inicio</a>
       <a href="Productos.html">Productos</a>
       <a href="Ofertas.html">Ofertas</a>
@@ -21,63 +21,71 @@
   </header>
 
   <div class="hero">
-    ¡Los mejores celulares por marca!
+    ¡Explora nuestras marcas disponibles!
   </div>
 
-  <main class="productos-contenedor">
-
-    <!-- Samsung -->
-    <section class="marca-seccion">
-      <h2 class="marca-titulo" onclick="toggleMarca('samsung')">Samsung</h2>
-      <div class="marca-productos" id="samsung">
-        <div class="producto-item">
-          <img src="s24.jpg" alt="Samsung Galaxy A24" />
-          <h3>Galaxy A24</h3>
-          <p>$1.200.000 COP</p>
-          <button onclick="comprar('Samsung Galaxy A24')">Comprar por WhatsApp</button>
-        </div>
+  <main class="contenedor-marcas">
+    <!-- Sección Samsung -->
+    <div class="marca-bloque">
+      <div class="marca-titulo" onclick="toggleMarca('samsung', this)">
+        Samsung <span class="icono">+</span>
       </div>
-    </section>
+      <div class="marca-productos" id="samsung">
+        <div class="producto button-producto-marca">
+          <img src="s24.jpg" alt="Samsung Galaxy A24">
+          <h3>Samsung Galaxy A24</h3>
+          <p>$1.200.000 COP</p>
+          <button onclick="comprar('Samsung Galaxy A54')">Comprar por WhatsApp</button>
+        </div>
+        <!-- Puedes agregar más Samsung aquí -->
+      </div>
+    </div>
 
-    <!-- iPhone -->
-    <section class="marca-seccion">
-      <h2 class="marca-titulo" onclick="toggleMarca('iphone')">iPhone</h2>
+    <!-- Sección iPhone -->
+    <div class="marca-bloque">
+      <div class="marca-titulo" onclick="toggleMarca('iphone', this)">
+        iPhone <span class="icono">+</span>
+      </div>
       <div class="marca-productos" id="iphone">
-        <div class="producto-item">
-          <img src="iphone 13.jpeg" alt="iPhone 13" />
+        <div class="producto button-producto-marca">
+          <img src="iphone 13.jpeg" alt="iPhone 13">
           <h3>iPhone 13</h3>
           <p>$2.350.000 COP</p>
-          <button onclick="comprar('iPhone 13')">Comprar por WhatsApp</button>
+          <button onclick="comprar('Iphone 13')">Comprar por WhatsApp</button>
+
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Huawei -->
-    <section class="marca-seccion">
-      <h2 class="marca-titulo" onclick="toggleMarca('huawei')">Huawei</h2>
+    <!-- Sección Huawei -->
+    <div class="marca-bloque">
+      <div class="marca-titulo" onclick="toggleMarca('huawei', this)">
+        Huawei <span class="icono">+</span>
+      </div>
       <div class="marca-productos" id="huawei">
-        <div class="producto-item">
-          <img src="huawei p20lite.jpg" alt="Huawei P20 Lite" />
-          <h3>P20 Lite</h3>
+        <div class="producto button-producto-marca">
+          <img src="huawei p20lite.jpg" alt="Huawei P20 Lite">
+          <h3>Huawei P20 Lite</h3>
           <p>$1.200.000 COP</p>
-          <button onclick="comprar('Huawei P20 Lite')">Comprar por WhatsApp</button>
+          <button onclick="comprar('Huawei p20 Lite')">Comprar por WhatsApp</button>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Motorola -->
-    <section class="marca-seccion">
-      <h2 class="marca-titulo" onclick="toggleMarca('motorola')">Motorola</h2>
+    <!-- Sección Motorola -->
+    <div class="marca-bloque">
+      <div class="marca-titulo" onclick="toggleMarca('motorola', this)">
+        Motorola <span class="icono">+</span>
+      </div>
       <div class="marca-productos" id="motorola">
-        <div class="producto-item">
-          <img src="motorola.jpg" alt="Motorola G Power" />
-          <h3>G Power</h3>
+        <div class="producto button-producto-marca">
+          <img src="motorola.jpg" alt="Motorola G Power">
+          <h3>Motorola G Power</h3>
           <p>$900.000 COP</p>
           <button onclick="comprar('Motorola G Power')">Comprar por WhatsApp</button>
         </div>
       </div>
-    </section>
-
+    </div>
   </main>
 
   <script src="/funciones.js"></script>
