@@ -1,9 +1,13 @@
+/* Inicio */
+
+/* body de todas*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: linear-gradient(135deg, #766a6a, rgb(32, 65, 65));
 }
 
+/*header de todas*/
 header {
   background-color: #34495e;
   color: white;
@@ -42,6 +46,7 @@ nav a:hover {
   margin-left: 5px;
 }
 
+/*hero de todas*/
 .hero {
   background: url('https://via.placeholder.com/1200x300?text=Bienvenido+a+Celumarket') no-repeat center center;
   background-size: cover;
@@ -122,6 +127,7 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+/* footer de todas*/
 footer {
   background-color: #34495e;
   color: white;
@@ -211,7 +217,7 @@ footer {
 }
 
 
-/* Productos */
+/* Ofertas*/
 .ofertas-productos {
   display: flex;
   flex-wrap: wrap;
@@ -335,39 +341,74 @@ footer {
   }
 }
 
+/* contacto */
+
 .contacto-hero {
   background: url('https://via.placeholder.com/1200x300?text=Contáctanos+en+MoviYa') no-repeat center center;
   background-size: cover;
-  height: 10%;
+  height: 200px;
   color: rgb(237, 229, 229);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
+  text-align: center;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
   animation: fadeIn 2s ease;
-  padding: 2rem;
+  padding: 3rem 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  margin: 10px;
+  margin-bottom: 20px;
 }
 
-.contacto-hero form {
-  background-color: rgba(91, 88, 88, 0.6);
-  padding: 10px;
-  color: white;
-  text-align: justify;
+/* Formulario de contacto */
+.formulario-contacto {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
-.contacto-hero input,
-.contacto-hero textarea {
+.formulario-contacto form {
   background-color: white;
-  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
 }
 
-.info-contacto {
-  color: white;
-  text-align: center;
-  animation: fadeIn 2s ease;
-  font-family: sans-serif;
+.formulario-contacto label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
 }
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.formulario-contacto button {
+  margin-top: 20px;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.formulario-contacto button:hover {
+  background-color: #1da851;
+  transform: scale(1.05);
+}
+
 
 /* Sección productos*/
 
@@ -444,3 +485,4 @@ footer {
     gap: 10px;
   }
 }
+
