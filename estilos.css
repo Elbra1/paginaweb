@@ -23,7 +23,7 @@ header {
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 15px;
 }
 
 nav a {
@@ -346,16 +346,15 @@ footer {
 .contacto-hero {
   background: url('https://via.placeholder.com/1200x300?text=Contáctanos+en+MoviYa') no-repeat center center;
   background-size: cover;
-  height: 200px;
+  height: 100px;
   color: rgb(237, 229, 229);
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
   animation: fadeIn 2s ease;
   padding: 3rem 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
+  margin-top: 1px;
 }
 
 /* Formulario de contacto */
