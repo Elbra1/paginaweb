@@ -19,6 +19,7 @@
       <a href="Contacto.html">Contacto</a>
     </nav>
   </header>
+
   <main>
     <section class="contacto-hero">
       <h2>¿Tienes dudas o quieres cotizar?</h2>
@@ -26,7 +27,8 @@
     </section>
 
     <section class="formulario-contacto">
-      <form action="https://formspree.io/f/tu-email" method="POST">
+      <!-- Agregamos id al formulario -->
+      <form id="formulario-contacto" method="POST">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required />
 
@@ -38,6 +40,11 @@
 
         <button type="submit">Enviar</button>
       </form>
+
+      <!-- Mensaje de confirmación -->
+      <div id="mensaje-enviado" style="display: none; color: green; margin-top: 10px;">
+        ¡Gracias! Tu mensaje ha sido enviado correctamente.
+      </div>
     </section>
   </main>
 
@@ -46,6 +53,7 @@
     <p>Contacto: Jbolas253@gmail.com | Tel: +57 3122575861</p>
   </footer>
 
+  <!-- Tu archivo JS -->
   <script src="funciones.js"></script>
 </body>
 
