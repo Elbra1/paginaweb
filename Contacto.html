@@ -19,26 +19,27 @@
       <a href="Contacto.html">Contacto</a>
     </nav>
   </header>
+  <main>
+    <section class="contacto-hero">
+      <h2>¿Tienes dudas o quieres cotizar?</h2>
+      <p>Déjanos tus datos y te contactaremos pronto.</p>
+    </section>
 
-  <section class="contacto-hero">
-    <h2>¿Tienes dudas o quieres cotizar?</h2>
-    <p>Déjanos tus datos y te contactaremos pronto.</p>
-  </section>
+    <section class="formulario-contacto">
+      <form action="https://formspree.io/f/tu-email" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
 
-  <section class="formulario-contacto">
-    <form action="https://formspree.io/f/tu-email" method="POST">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required />
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
 
-      <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="email" required />
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
 
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
 
   <footer class="footer">
     <p>&copy; 2025 MoviYa. Todos los derechos reservados.</p>
@@ -47,4 +48,5 @@
 
   <script src="funciones.js"></script>
 </body>
+
 </html>
