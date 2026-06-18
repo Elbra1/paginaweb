@@ -19,7 +19,7 @@ app.post("/contacto", (req,res)=>{
 
     db.query(
         sql,
-        [nombre, correo, telefono, mensaje],
+        [nombre, correo, mensaje],
         (err,result)=>{
             if(err){
                 return res.status(500).json(err);
