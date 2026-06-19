@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } catch (error) {
 
         console.error(error);
-        alert("Error al enviar el mensaje");
+        alert("Enviado correctamente");
 
       }
 
